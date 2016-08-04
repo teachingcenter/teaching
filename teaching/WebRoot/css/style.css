@@ -1,4 +1,4 @@
-
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
 @font-face {
     font-family: 'texgyreadventorregular';
     src: url('../fonts/texgyreadventor-regular-webfont.ttf') format('truetype');
@@ -14,6 +14,8 @@ body {
 	background:#ffffff;
 	font-size: 100%;
 }
+
+
 /* start header */
 .header_bg{
 	border-top:8px groove rgba(104,213,176,0.7);
@@ -27,7 +29,7 @@ body {
 .header{
 	padding: 2% 0;
 }
-.logo h1 a{
+.logo a h1{
 	font-size: 1em;
 	text-transform: uppercase;
 	color: rgba(59,59,59,0.7);
@@ -754,9 +756,34 @@ body {
 		font-size: 2em;
 	}
 }
+
+/*河北北方学院*/
+.hb:link {color: blue; text-decoration:none;} /*未访问：蓝色、无下划线 */
+
+.hb:active:{color: red; } /*激活：红色 */
+
+.hb:visited {color:purple;text-decoration:none;} /*已访问：purple、无下划线 */
+
+.hb:hover {color: red; text-decoration:inherit;} /*鼠标移近：红色、下划线 */
+/*登录注册*/
+
+.h_sign{
+	padding: 20px;
+}
+/*
+.dz {font-size:16px} 
+
+.dz:link {color: blue; text-decoration:none;} /*未访问：蓝色、无下划线 */
+/*
+.dz:active:{color: red; } /*激活：红色 */
+/*
+.dz:visited {color:purple;text-decoration:none;} /*已访问：purple、无下划线 */
+/*
+.dz:hover {color: red; text-decoration:underline;} /*鼠标移近：红色、下划线 */
 @media only screen and (max-width: 768px) {
 	.logo{
 		text-align:center;
+		
 	}
 	.h_search {
 		width: 98%;
@@ -809,6 +836,7 @@ body {
 	}
 	.images_1_of_4{
 		margin-bottom: 4%;
+		
 	}
 	.main{
 		padding: 2%;
